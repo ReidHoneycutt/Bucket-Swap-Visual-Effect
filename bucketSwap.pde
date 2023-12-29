@@ -30,7 +30,8 @@ void setup() {
     int[] col = {r, g, b};
     colors[i] = col;
   }
-  
+
+  // REPLACE "picture_folder" WITH FOLDER NAME
   for (int a = 0; a < num_images; a++) {
     img_array[a] = loadImage("picture_folder/frame"+a+".jpg");
     img_array[a].resize(displayWidth, displayHeight);
