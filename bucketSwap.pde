@@ -30,12 +30,11 @@ void setup() {
     int[] col = {r, g, b};
     colors[i] = col;
   }
+  
   for (int a = 0; a < num_images; a++) {
-    img_array[a] = loadImage("data2/frame"+a+".jpg");
-    //img_array[a] = loadImage("hominid.jpeg");
+    img_array[a] = loadImage("picture_folder/frame"+a+".jpg");
     img_array[a].resize(displayWidth, displayHeight);
-    img_array2[a] = loadImage("data2/frame"+a+".jpg");
-    //img_array2[a] = loadImage("hominid.jpeg");
+    img_array2[a] = loadImage("picture_folder/frame"+a+".jpg");
     img_array2[a].resize(displayWidth, displayHeight);
     
     Vector<Vector<int[]>> buckets = new Vector<Vector<int[]>>();
