@@ -1,7 +1,7 @@
 import processing.sound.*;
 import java.util.*;
 
-//HashMap<int[], Vector<int[]>> colors = new HashMap<int[], Vector<int[]>>();
+
 PImage img;
 PImage img2;
 int bands = 40;
